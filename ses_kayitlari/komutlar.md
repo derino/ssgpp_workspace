@@ -1,4 +1,4 @@
-[ses kayıtlarının ekşi sözlük’teki yankıları][http://ssgpp.wordpress.com/2014/03/05/ses-kayitlarinin-eksi-sozlukteki-yankilari/] incelemesi icin kullanilan komutlar:
+[ses kayıtlarının ekşi sözlük’teki yankıları](http://ssgpp.wordpress.com/2014/03/05/ses-kayitlarinin-eksi-sozlukteki-yankilari/) incelemesi icin kullanilan komutlar:
 
 * ses kaydi girdilerinin alinmasi
 ```
