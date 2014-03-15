@@ -1,4 +1,4 @@
-[Berkin](http://ssgpp.wordpress.com/2014/03/05/ses-kayitlarinin-eksi-sozlukteki-yankilari/) incelemesi icin kullanilan komutlar:
+[Berkin](http://ssgpp.wordpress.com/2014/03/15/berkin/) incelemesi icin kullanilan komutlar:
 
 * berkin* başlıklarındaki girdilerin indirilmesi
 ```
