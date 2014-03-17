@@ -4,5 +4,5 @@ window.conf_harita = {
  'auto_dereceler': true,
  'dereceler': [0, 100, 250, 500, 1000, 4000, 8000],
  'yerel': false,
- 'csvDosyasi': 'sehir_girdi_sayilari.csv'
+ 'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/sozlukte_iller/sehir_girdi_sayilari.csv'
 };
