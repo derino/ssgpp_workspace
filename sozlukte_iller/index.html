@@ -63,6 +63,12 @@
   <input type=file id=files name=files[] multiple />
 </div>
 
+<script type="text/javascript">
+  if(!window.conf_harita.yerel) {
+  $("#inputs").html("");
+  }
+</script>  
+
     <h4>Result:</h4>
     <div class=result>
       <table id=result3 border=1></table>
