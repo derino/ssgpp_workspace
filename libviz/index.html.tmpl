@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sonuçlar</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="leaflet.css" />
+
+	<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script-->
+	<script src="jquery.min.js"></script>
+	<script src="jquery.csv.js"></script>
+	<!--script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script-->
+	
+	<!-- color function -->
+	<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script>
+
+	<script src="leaflet.js"></script>
+
+	<script type="text/javascript" src="tr-iller.js"></script>
+	<script type="text/javascript" src="harita.conf.js"></script>
+	<script type="text/javascript" src="harita.js"></script>
+
+	<style>
+		#map {
+			width: 1000px;
+			height: 500px;
+		}
+
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+
+<div id=inputs class=clearfix>
+  <input type=file id=files name=files[] multiple />
+</div>
+
+    <h4>Result:</h4>
+    <div class=result>
+      <table id=result3 border=1></table>
+    </div>
+
+	<script type="text/javascript">
+	  
+//	  setupMap();
+
+	</script>
+
+
+
+</body>
+</html>
