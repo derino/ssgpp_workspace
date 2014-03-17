@@ -144,17 +144,11 @@ function printTable(file) {
 
 
 
-
-
-
-//var min = Math.min.apply(null, arr),
-//    max = Math.max.apply(null, arr);
-
 // get color depending on population density value
 function getColor(d) {
 
     var color = d3.scale.log().domain([ data_min, data_max ]).range([ "rgb(255, 255, 229)", "rgb(35, 139, 69)" ]);
-    return color(d);
+    return color(d+1); // 1 ve 2'nin farkli renklendirilmesini sagladi.
     /*return d >  ? '#800026' :
       d > 4000  ? '#BD0026' :
       d > 1000  ? '#E31A1C' :
