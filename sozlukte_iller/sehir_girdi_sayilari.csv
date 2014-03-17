@@ -1,82 +1,82 @@
-kategori,Nufus basina entry,adet,,,,,,,,
-adana,0.0008538625,1815,,5,Adana,2125635,,,,
-adıyaman,0.0002318311,138,,35,Adıyaman,595261,,,Nufus kaynak:,http://www.kampussurucukursu.com/index.php?option=com_content&view=article&id=121:nufus&catid=51:sss&Itemid=65
-afyonkarahisar,0.0003693455,260,,31,Afyonkarahisar,703948,,,,
-ağrı,0.000235335,130,,38,Ağrı,552404,,,,
-aksaray,0.0003527105,134,*,49,Aksaray,379915,,,,
-amasya,0.0005585153,180,,57,Amasya,322283,,,,
-ankara,0.0017649634,8764,,2,Ankara,4965542,,,,
-antalya,0.0009223254,1930,,6,Antalya,2092537,,,,
-ardahan,0.0007595435,81,,79,Ardahan,106643,,,,
-artvin,0.0015800625,264,,76,Artvin,167082,,,,
-aydın,0.0003924331,395,,20,Aydın,1006541,,,,
-balıkesir,0.0003368567,391,,17,Balıkesir,1160731,,,,
-bartın,0.000567832,107,,74,Bartın,188436,,,,
-batman,0.0008723243,466,TODO,39,Batman,534205,,,,
-bayburt,0.0019393907,147,,81,Bayburt,75797,,,,
-bilecik,0.0011513061,235,,71,Bilecik,204116,,,,
-bingöl,0.0004571307,120,,64,Bingöl,262507,,,,
-bitlis,0.0002134896,72,,55,Bitlis,337253,,,,
-bolu,0.0006261563,176,,61,Bolu,281080,,,,
-burdur,0.0006487354,165,,65,Burdur,254341,,,,
-bursa,0.0003861361,1038,,4,Bursa,2688171,,,,
-çanakkale,0.0008446579,417,,41,Çanakkale,493691,,,,
-çankırı,0.0007429259,137,,75,Çankırı,184406,,,,
-çorum,0.0002830322,150,,40,Çorum,529975,,,,
-denizli,0.0008237276,783,,21,Denizli,950557,,,,
-diyarbakır,0.0003341358,532,,12,Diyarbakır,1592167,,,,
-düzce,0.0003607576,125,,51,Düzce,346493,,,,
-edirne,0.00138351,553,,48,Edirne,399708,,,,
-elazığ,0.0005366952,302,,37,Elazığ,562703,,,,
-erzincan,0.0007297394,159,,69,Erzincan,217886,,,,
-erzurum,0.0005358554,417,,26,Erzurum,778195,,,,
-eskişehir,0.0037315606,2947,,25,Eskişehir,789750,,,,
-gaziantep,0.0003011851,542,,8,Gaziantep,1799558,,,,
-giresun,0.0005982529,251,,45,Giresun,419555,,,,
-gümüşhane,0.0006508106,88,,77,Gümüşhane,135216,,,,
-hakkari,0.0009393461,263,,62,Hakkari,279982,,,,
-hatay,0.000545268,809,* antakya eklendi,13,Hatay,1483674,,,,
-ığdır,0.0005304371,101,,73,Iğdır,190409,,,,
-ısparta,0.0006984061,291,,46,Isparta,416663,,,,
-istanbul,0.0004309716,5971,,1,İstanbul,13854740,,,,
-izmir,0.0016075561,6439,,3,İzmir,4005459,,,,
-kahramanmaraş,0.0002247986,239,,18,Kahramanmaraş,1063174,,,,
-karabük,0.0003686513,83,,67,Karabük,225145,,,,
-karaman,0.0004587468,108,,66,Karaman,235424,,,,
-kars,0.0007348575,224,,59,Kars,304821,,,,
-kastamonu,0.0005002668,180,,50,Kastamonu,359808,,,,
-kayseri,0.0004172654,532,,15,Kayseri,1274968,,,,
-kilis,0.0006837194,85,,78,Kilis,124320,,,,
-kırıkkale,0.0005023168,138,,63,Kırıkkale,274727,,,,
-kırklareli,0.0006125116,209,,53,Kırklareli,341218,,,,
-kırşehir,0.0005650765,125,,68,Kırşehir,221209,,,,
-kocaeli,0.0003560306,582,* izmit (indirilmedi, elle),11,Kocaeli,1634691,,,,
-konya,0.0003444947,707,,7,Konya,2052281,,,,
-kütahya,0.0006557137,376,,36,Kütahya,573421,,,,
-malatya,0.0003580957,273,,28,Malatya,762366,,,,
-manisa,0.000166399,224,,14,Manisa,1346162,,,,
-mardin,0.0004359491,337,,27,Mardin,773026,,,,
-mersin,0.0004635,780,* icel eklendi,10,Mersin,1682848,,,,
-muğla,0.0002561256,218,,24,Muğla,851145,,,,
-muş,0.000246818,102,,47,Muş,413260,,,,
-nevşehir,0.0031557909,90,,60,Nevşehir,28519,,,,
-niğde,0.0035559996,121,,54,Niğde,34027,,,,
-ordu,0.0003830741,284,,30,Ordu,741371,,,,
-osmaniye,0.0002072602,102,,42,Osmaniye,492135,,,,
-rize,0.0012000543,389,,56,Rize,324152,,,,
-sakarya,0.0003602038,325,,22,Sakarya,902267,,,,
-samsun,0.0005999735,751,,16,Samsun,1251722,,,,
-şanlıurfa,0.0001299604,229,,9,Şanlıurfa,1762075,,,,
-siirt,0.0003763522,117,,58,Siirt,310879,,,,
-sinop,0.0017237011,347,,72,Sinop,201311,,,,
-sivas,0.000612636,382,,32,Sivas,623535,,,,
-şırnak,0.0001884441,88,,43,Şırnak,466982,,,,
-tekirdağ,0.0003050494,260,,23,Tekirdağ,852321,,,,
-tokat,0.0002573332,158,,33,Tokat,613990,,,,
-trabzon,0.0013379109,1014,,29,Trabzon,757898,,,,
-tunceli,0.0051115026,441,,80,Tunceli,86276,,,,
-uşak,0.00040027,137,,52,Uşak,342269,,,,
-van,0.0003460158,364,,19,Van,1051975,,,,
-yalova,0.0011614786,246,,70,Yalova,211799,,,,
-yozgat,0.0010546964,478,,44,Yozgat,453211,,,,
-zonguldak,0.0004748346,288,,34,Zonguldak,606527,,,,
+kategori	Nufus basina entry	adet								
+adana	0.0008538625	1815		5	Adana	2125635				
+adıyaman	0.0002318311	138		35	Adıyaman	595261			Nufus kaynak:	http://www.kampussurucukursu.com/index.php?option=com_content&view=article&id=121:nufus&catid=51:sss&Itemid=65
+afyonkarahisar	0.0003693455	260		31	Afyonkarahisar	703948				
+ağrı	0.000235335	130		38	Ağrı	552404				
+aksaray	0.0003527105	134	*	49	Aksaray	379915				
+amasya	0.0005585153	180		57	Amasya	322283				
+ankara	0.0017649634	8764		2	Ankara	4965542				
+antalya	0.0009223254	1930		6	Antalya	2092537				
+ardahan	0.0007595435	81		79	Ardahan	106643				
+artvin	0.0015800625	264		76	Artvin	167082				
+aydın	0.0003924331	395		20	Aydın	1006541				
+balıkesir	0.0003368567	391		17	Balıkesir	1160731				
+bartın	0.000567832	107		74	Bartın	188436				
+batman	0.0008723243	466	TODO	39	Batman	534205				
+bayburt	0.0019393907	147		81	Bayburt	75797				
+bilecik	0.0011513061	235		71	Bilecik	204116				
+bingöl	0.0004571307	120		64	Bingöl	262507				
+bitlis	0.0002134896	72		55	Bitlis	337253				
+bolu	0.0006261563	176		61	Bolu	281080				
+burdur	0.0006487354	165		65	Burdur	254341				
+bursa	0.0003861361	1038		4	Bursa	2688171				
+çanakkale	0.0008446579	417		41	Çanakkale	493691				
+çankırı	0.0007429259	137		75	Çankırı	184406				
+çorum	0.0002830322	150		40	Çorum	529975				
+denizli	0.0008237276	783		21	Denizli	950557				
+diyarbakır	0.0003341358	532		12	Diyarbakır	1592167				
+düzce	0.0003607576	125		51	Düzce	346493				
+edirne	0.00138351	553		48	Edirne	399708				
+elazığ	0.0005366952	302		37	Elazığ	562703				
+erzincan	0.0007297394	159		69	Erzincan	217886				
+erzurum	0.0005358554	417		26	Erzurum	778195				
+eskişehir	0.0037315606	2947		25	Eskişehir	789750				
+gaziantep	0.0003011851	542		8	Gaziantep	1799558				
+giresun	0.0005982529	251		45	Giresun	419555				
+gümüşhane	0.0006508106	88		77	Gümüşhane	135216				
+hakkari	0.0009393461	263		62	Hakkari	279982				
+hatay	0.000545268	809	* antakya eklendi	13	Hatay	1483674				
+ığdır	0.0005304371	101		73	Iğdır	190409				
+ısparta	0.0006984061	291		46	Isparta	416663				
+istanbul	0.0004309716	5971		1	İstanbul	13854740				
+izmir	0.0016075561	6439		3	İzmir	4005459				
+kahramanmaraş	0.0002247986	239		18	Kahramanmaraş	1063174				
+karabük	0.0003686513	83		67	Karabük	225145				
+karaman	0.0004587468	108		66	Karaman	235424				
+kars	0.0007348575	224		59	Kars	304821				
+kastamonu	0.0005002668	180		50	Kastamonu	359808				
+kayseri	0.0004172654	532		15	Kayseri	1274968				
+kilis	0.0006837194	85		78	Kilis	124320				
+kırıkkale	0.0005023168	138		63	Kırıkkale	274727				
+kırklareli	0.0006125116	209		53	Kırklareli	341218				
+kırşehir	0.0005650765	125		68	Kırşehir	221209				
+kocaeli	0.0003560306	582	* izmit (indirilmedi, elle)	11	Kocaeli	1634691				
+konya	0.0003444947	707		7	Konya	2052281				
+kütahya	0.0006557137	376		36	Kütahya	573421				
+malatya	0.0003580957	273		28	Malatya	762366				
+manisa	0.000166399	224		14	Manisa	1346162				
+mardin	0.0004359491	337		27	Mardin	773026				
+mersin	0.0004635	780	* icel eklendi	10	Mersin	1682848				
+muğla	0.0002561256	218		24	Muğla	851145				
+muş	0.000246818	102		47	Muş	413260				
+nevşehir	0.0003155791	90		60	Nevşehir	285190				
+niğde	0.0003556	121		54	Niğde	340270				
+ordu	0.0003830741	284		30	Ordu	741371				
+osmaniye	0.0002072602	102		42	Osmaniye	492135				
+rize	0.0012000543	389		56	Rize	324152				
+sakarya	0.0003602038	325		22	Sakarya	902267				
+samsun	0.0005999735	751		16	Samsun	1251722				
+şanlıurfa	0.0001299604	229		9	Şanlıurfa	1762075				
+siirt	0.0003763522	117		58	Siirt	310879				
+sinop	0.0017237011	347		72	Sinop	201311				
+sivas	0.000612636	382		32	Sivas	623535				
+şırnak	0.0001884441	88		43	Şırnak	466982				
+tekirdağ	0.0003050494	260		23	Tekirdağ	852321				
+tokat	0.0002573332	158		33	Tokat	613990				
+trabzon	0.0013379109	1014		29	Trabzon	757898				
+tunceli	0.0051115026	441		80	Tunceli	86276				
+uşak	0.00040027	137		52	Uşak	342269				
+van	0.0003460158	364		19	Van	1051975				
+yalova	0.0011614786	246		70	Yalova	211799				
+yozgat	0.0010546964	478		44	Yozgat	453211				
+zonguldak	0.0004748346	288		34	Zonguldak	606527				

@@ -22,7 +22,7 @@ $(document).ready(function() {
 		 }
 	       });
 
-	alert(allText);
+	//alert(allText);
 	data = $.csv.toArrays(allText);
 	plotDataOnMap();
 	var html = '';
@@ -274,8 +274,8 @@ function plotDataOnMap() {
 	if(item > data_max)
 	    data_max = item;	
     }
-    alert(data_min);
-    alert(data_max);
+    //alert(data_min);
+    //alert(data_max);
 
 //    setupMap();
 
@@ -321,9 +321,12 @@ function plotDataOnMap() {
 	if(window.conf_harita.auto_dereceler) {
 	    var dereceler = new Array(7);
 	    dereceler[0] = 0;
-	    for(var i=1; i<7; i++)
-		dereceler[i] = Math.floor( dataValCopy[Math.floor(i*dataValCopy.length/7)] );
-	    dereceler[7] = Math.floor(data_max);
+	    for(var i=1; i<7; i++) {
+		var p = dataValCopy[Math.floor(i*dataValCopy.length/7)];
+		dereceler[i] = (p-dataValCopy[0]>1)? Math.floor(p): p; // degerler cok kucukse ondaliklar onemli. ideal bir cozum degil.
+	    }
+	    
+	    dereceler[7] = (data_max-data_min>1)? Math.floor(data_max): data_max;
 	    //dereceler[i] = Math.floor(data_min + i*(data_max-data_min)/6);
 	    window.conf_harita.dereceler = dereceler;
 	}
@@ -335,13 +338,18 @@ function plotDataOnMap() {
 	labels = [],
 	from, to;
 
-	for (var i = 0; i < window.conf_harita.dereceler.length; i++) {
+	for (var i = window.conf_harita.dereceler.length-1; i>-1; i--) {
 	    from = window.conf_harita.dereceler[i];
-	    to = window.conf_harita.dereceler[i + 1];
+	    //to = window.conf_harita.dereceler[i + 1];
 
+	    labels.push(
+		'<i style="background:' + getColor(from) + '"></i> ' + // from+1
+		    from + (to ? '&ndash;' + to : ''));
+	    /*
 	    labels.push(
 		'<i style="background:' + getColor(from + 1) + '"></i> ' +
 		    from + (to ? '&ndash;' + to : ''));
+	    */
 	}
 
 	div.innerHTML = labels.join('<br>');
