@@ -6,7 +6,7 @@ window.conf_harita = {
 // dereceler auto degilse, nasil?
  'dereceler': [0, 100, 250, 500, 1000, 4000, 8000],
 // kullanici kendi csv dosyasini kullansin
- 'yerel': false,
+ 'yerel': true,
 // csv dosyasi yerel degilse, nerde?
  'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/libviz/sehir_girdi_sayilari.csv'
 };
