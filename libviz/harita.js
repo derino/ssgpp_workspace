@@ -7,12 +7,11 @@ $(document).ready(function() {
 
     setupMap();
 
-    if(window.conf_harita.yerel) {
-	if(isAPIAvailable()) {
-	    $('#files').bind('change', handleFileSelect);
-	}
+    if(isAPIAvailable()) {
+	$('#files').bind('change', handleFileSelect);
     }
-    else {
+    
+    if(!window.conf_harita.yerel) {
 	var allText;
 	$.ajax({ 'url': window.conf_harita.csvDosyasi,
 		 'async': false,
