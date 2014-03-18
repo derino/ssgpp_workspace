@@ -33,12 +33,13 @@ ssg++ yürüt dosyaknk [dosya=berkin_star_01062013ten_beri.xml] ! girdibkzları 
 
 * şehirler
 ```
-ssg++ yürüt dosyaknk [dosya=berkin_star_01062013ten_beri.xml] ! genelflt [alan=baslik, dosyadandeğer=turkiye_sehirler.tema, benzerlik=ayrık] ! histogram [kategori=etiket] ! metinbtk
+ssg++ yürüt dosyaknk [dosya=berkin_star_01062013ten_beri.xml] ! genelflt [alan=baslik, dosyadandeğer=turkiye_sehirler.tema, benzerlik=ayrık] ! histogram [kategori=etiket] ! dosyabtk [dosya=berkin.csv]
 ```
 ankara: 245
 izmir: 130
-tunceli: 42 (benzerlik=sonuekli parametresi ile çıkıyor. bug olmalı.)
-antakya: 24
+tunceli: 42
+hatay: 24
+istanbul: 200
 bursa: 20
 eskişehir: 18
 kocaeli: 11
@@ -57,16 +58,6 @@ gaziantep: 1
 konya: 1
 ısparta: 1
 
-* istanbul
-```
-ssg++ yürüt dosyaknk [dosya=berkin_star_01062013ten_beri.xml] ! genelflt [alan=baslik, dosyadandeğer=istanbul_ilceler.tema, benzerlik=ayrık] ! histogram [kategori=etiket] ! metinbtk
-```
 
-kadıköy: 135
-istiklal caddesi: 36
-beşiktaş: 15
-beylikdüzü: 8
-sancaktepe: 2
-silivri: 1
 
 

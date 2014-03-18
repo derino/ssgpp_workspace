@@ -1,6 +1,6 @@
 *	Adana		
 * 	Adıyaman		
-* 	Afyon				
+* 	Afyon; Afyonkarahisar				
 * 	Ağrı					
 * 	Amasya						
 * 	Ankara							
@@ -24,32 +24,26 @@
 * 	Erzincan														   
 * 	Erzurum															    
 * 	Eskişehir														     
-* 	Gaziantep
-*	Antep
-*	G. Antep
+* 	Gaziantep; Antep; G. Antep
 * 	Giresun															       
 * 	Gümüşhane														        
 * 	Hakkari																 
-* 	Hatay, 
-*	Antakya 
+* 	Hatay; Antakya 
 * 	Isparta																   
-* 	İçel 
-*	Mersin 
-* 	İstanbul															     
+*	Mersin; İçel  
+* 	İstanbul; Adalar; Arnavutköy; Ataşehir; Avcılar; Bağcılar; Bahçelievler; Bakırköy; Başakşehir; Bayrampaşa; Beşiktaş; Beykoz; Beylikdüzü; Beyoğlu; Taksim; istiklal caddesi; Büyükçekmece; Çatalca; Çekmeköy; Esenler; Esenyurt; Eyüp; Fatih; Gaziosmanpaşa; Güngören; Kadıköy; Kağıthane; Kartal; Küçükçekmece; Maltepe; Pendik; Sancaktepe; Sarıyer; Silivri; Sultanbeyli; Sultangazi; Şile; Şişli; Tuzla; Ümraniye; Üsküdar; Zeytinburnu 
 * 	izmir																      
 * 	Kars																       
 * 	Kastamonu															        
 * 	Kayseri																	 
 * 	Kırklareli																  
 * 	Kırşehir																   
-* 	Kocaeli																	    
+* 	Kocaeli; izmit 																	    
 * 	Konya																	     
 * 	Kütahya																	      
 * 	Malatya																	       
 * 	Manisa																	        
-* 	Kahramanmaraş
-*	Maraş
-*	K. Maraş 
+* 	Kahramanmaraş;	Maraş; K. Maraş 
 * 	Mardin																		  
 * 	Muğla																		   
 * 	Muş																		    
@@ -65,11 +59,8 @@
 * 	Tekirdağ																		      
 * 	Tokat																			       
 * 	Trabzon																			        
-* 	Tunceli
-*	Dersim 
-* 	Şanlıurfa 
-*	Urfa 
-*	Ş. Urfa 
+* 	Tunceli; Dersim 
+* 	Şanlıurfa; Urfa; Ş. Urfa 
 * 	Uşak																				  
 * 	Van																				   
 * 	Yozgat																				    
