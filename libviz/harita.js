@@ -225,7 +225,7 @@ function onEachFeature(feature, layer) {
 var info;
 function setupMap() {
 
-map = L.map('map').setView([39, 36.8], 6);
+map = L.map('map').setView(window.conf_harita.merkez, window.conf_harita.yakinlik);
 
 /*var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
   attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
@@ -245,7 +245,7 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
     this._div.innerHTML = '<h4>' + window.conf_harita.baslik + '</h4>' +  (props ?
-								    '<b>' + props.NAME_1 + '</b><br />' + props.density
+								    '<b>' + props.name + '</b><br />' + props.density
 								    : window.conf_harita.altbaslik); // Detaylar için imleci kullanın.
 };
 
@@ -279,7 +279,7 @@ function plotDataOnMap() {
 
 	for(var row in data)
 	{
-	    if( data[row][0].toLocaleLowerCase() == statesData.features[i].properties.NAME_1.toLocaleLowerCase() )
+	    if( data[row][0].toLocaleLowerCase() == statesData.features[i].properties.name.toLocaleLowerCase() )
 		statesData.features[i].properties.density = data[row][1];
 	}
 	/*for(var j = 0; j<res.cityresults.length; j++)

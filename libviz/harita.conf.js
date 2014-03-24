@@ -1,6 +1,6 @@
 window.conf_harita = {
- 'baslik': 'Türkiye illeri renksel-sayılı haritası',
- 'altbaslik': 'Verilen csv dosyasının ikinci sütunundaki değerleri büyüklüklerine göre şehirleri renklendirerek gösterir.',
+ 'baslik': 'Renksel-sayılı harita',
+ 'altbaslik': 'Verilen csv dosyasındaki değerlere göre haritayı renklendirerek gösterir.',
 // lejant otomatik mi hesabedilsin? (esit sayida sehir iceren kumelere ayirir.)
  'auto_dereceler': true,
 // dereceler auto degilse, nasil?
@@ -8,5 +8,15 @@ window.conf_harita = {
 // kullanici kendi csv dosyasini kullansin
  'yerel': true,
 // csv dosyasi yerel degilse, nerde?
- 'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/libviz/sehir_girdi_sayilari.csv'
+ 'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/libviz/sehir_girdi_sayilari.csv',
+// yakinlastirma derecesi: [1, 8] araliginda bir tam sayi. 
+// ulkeler icin
+'yakinlik': 2,
+// Turkiye icin
+//'yakinlik': 6,
+// haritanin orta noktasinin koordinatlari: [merkez_parallel_derecesi, merkez_boylam_derecesi]
+// ulkeler icin
+'merkez': [20, 10]
+// Turkiye icin
+//'merkez': [39, 36.8]
 };
