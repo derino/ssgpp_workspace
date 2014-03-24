@@ -6,22 +6,22 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="../../libviz/leaflet.css" />
+	<link rel="stylesheet" href="leaflet.css" />
 
 	<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script-->
-	<script src="../../libviz/jquery.min.js"></script>
-	<script src="../../libviz/jquery.csv.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="jquery.csv.js"></script>
 	<!--script src="http://jquery-csv.googlecode.com/git/src/jquery.csv.js"></script-->
 	
 	<!-- color function -->
 	<!--script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script-->
-	<script type="text/javascript" src="../../libviz/d3.v2.js"></script>
+	<script type="text/javascript" src="d3.v2.js"></script> 
+	
+	<script src="leaflet.js"></script>
 
-	<script src="../../libviz/leaflet.js"></script>
-
-	<script type="text/javascript" src="../../libviz/tr-iller/tr-iller.js"></script>
+	<script type="text/javascript" src="ulkeler/ulkeler.js"></script>
 	<script type="text/javascript" src="harita.conf.js"></script>
-	<script type="text/javascript" src="../../libviz/harita.js"></script>
+	<script type="text/javascript" src="harita.js"></script>
 
 	<style>
 		#map {
@@ -59,19 +59,24 @@
 <body>
 	<div id="map"></div>
 
-<div id=inputs class=clearfix>
-  <input type=file id=files name=files[] multiple />
-</div>
+	  <div id=inputs class=clearfix>
+	    <input type=file id=files name=files[] multiple />
+	    Örnek: <a href="il_nufuslari.csv">il_nufuslari.csv</a>
+	  </div>
 
-<script type="text/javascript">
-  if(!window.conf_harita.yerel) {
-  $("#inputs").html("");
-  }
-</script>  
+	<script type="text/javascript">
+
+	  if(!window.conf_harita.yerel) {
+	    $("#inputs").html("");
+	  }
+	</script>
+
 
     <div class=result>
       <table id=result3 border=1></table>
     </div>
+
+
 
 </body>
 </html>

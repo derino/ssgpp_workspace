@@ -11,12 +11,12 @@ window.conf_harita = {
  'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/libviz/sehir_girdi_sayilari.csv',
 // yakinlastirma derecesi: [1, 8] araliginda bir tam sayi. 
 // ulkeler icin
-//'yakinlik': 2,
+'yakinlik': 2,
 // Turkiye icin
-'yakinlik': 6,
+//'yakinlik': 6,
 // haritanin orta noktasinin koordinatlari: [merkez_parallel_derecesi, merkez_boylam_derecesi]
 // ulkeler icin
-//'merkez': [20, 10]
+'merkez': [20, 10]
 // Turkiye icin
-'merkez': [39, 36.8]
+//'merkez': [39, 36.8]
 };

@@ -93,6 +93,12 @@ function printTable(file) {
         }
         html += '</tr>\r\n';
       }
+
+    /*for(var i=0;i<statesData.features.length;i++)
+    {
+        html += '<tr><td>' + statesData.features[i].properties.name + '</td></tr>';
+    }*/
+
       $('#result3').html(html);
     };
     reader.onerror = function(){ alert('Unable to read ' + file.fileName); };
@@ -104,7 +110,8 @@ function printTable(file) {
 //$('#result3').html(html);
 
 // build HTML table data from an array (one or two dimensional)
-  function generateTable(data) {
+/*
+   function generateTable(data) {
     var html = '';
 
     if(typeof(data[0]) === 'undefined') {
@@ -138,10 +145,15 @@ function printTable(file) {
         html += '</tr>\r\n';
       }
     }
+
+
+
+
+
     
     return html;
   }
-
+*/
 
 
 // get color depending on population density value
