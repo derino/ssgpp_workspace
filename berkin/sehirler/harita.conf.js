@@ -4,7 +4,7 @@ window.conf_harita = {
  'auto_dereceler': true,
  'dereceler': [0, 100, 250, 500, 1000, 4000, 8000],
  'yerel': false,
- 'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/berkin/sehirler/berkin.csv'
+ 'csvDosyasi': 'http://derino.github.io/ssgpp_workspace/berkin/sehirler/berkin.csv',
 // yakinlastirma derecesi: [1, 8] araliginda bir tam sayi. 
 // ulkeler icin
 //'yakinlik': 2,
