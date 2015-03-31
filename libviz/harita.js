@@ -311,7 +311,7 @@ function plotDataOnMap() {
     }).addTo(map);
 
     //map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
-    map.attributionControl.addAttribution('ssg++ &copy; <a href="http://ssgpp.sourceforge.net">http://ssgpp.sourceforge.net</a>');
+    map.attributionControl.addAttribution('ssg++ &copy; <a href="http://ssgpp.github.io">http://ssgpp.github.io</a>');
 
 
     var legend = L.control({position: 'bottomright'});
