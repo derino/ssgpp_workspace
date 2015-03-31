@@ -7,8 +7,10 @@ ssg++ -l yürüt başlıkknk [başlık=31 mart 2015 elektrik kesintisi] ! başl�
 
 * sehirler icin csv dosyasini olustur.
 ```
-ssg++ yürüt dosyaknk [dosya=31_mart_2015_elektrik_kesintisi.xml] ! genelflt [alan=girdi, dosyadandeğer=turkiye_sehirler.tema, benzerlik=sonuekli] ! histogram [kategori=etiket] ! dosyabtk [dosya=kesinti_sehirler_sonuekli.csv]* şehirler
+ssg++ yürüt dosyaknk [dosya=31_mart_2015_elektrik_kesintisi.xml] ! genelflt [alan=girdi, dosyadandeğer=turkiye_sehirler.tema, benzerlik=sonuekli] ! histogram [kategori=etiket] ! dosyabtk [dosya=kesinti_sehirler_sonuekli.csv]
 ```
+
+* şehirler
 
 kategori,adet
 "adana","5"
